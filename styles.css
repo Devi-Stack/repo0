@@ -1,0 +1,65 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+body {
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+
+}
+
+#hello {
+    color: blue;
+    text-align:left;
+
+}
+
+#contact-me {
+    color: blue;
+    text-align:left;
+
+}
+
+#links {
+  color: blue;
+  text-align:left ;
+
+}
+
+
+#responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+..//navbar
+
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #888;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #fff;}
+
+ul.topnav li a.active {background-color: #0000ff;}
+
+ul.topnav li.right {float: left;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
