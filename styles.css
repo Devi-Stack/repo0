@@ -1,4 +1,9 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
+head
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
 body {
   justify-content: center;
   align-items: center;
@@ -9,18 +14,21 @@ body {
 #hello {
     color: blue;
     text-align:left;
+    font-size: 4vw;
 
 }
 
 #contact-me {
     color: blue;
     text-align:left;
+    font-size: 4vw;
 
 }
 
 #links {
   color: blue;
-  text-align:left ;
+  text-align:left;
+  font-size: 4vw;
 
 }
 
@@ -51,6 +59,7 @@ ul.topnav li a {
   text-align: center;
   padding: 8px 12px;
   text-decoration: none;
+  font-size: 2vw;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #fff;}
